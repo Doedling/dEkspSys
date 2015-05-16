@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box; /*???*/
+}
+
+/*Removing default browser margin*/
+/*Skal her også stå html?*/
+body {
+	/*overflow-x: hidden;*/
+    margin: 0;
+}
+
+.Container {
+    display: flex;
+    overflow: hidden;
+    /*height: 100vh; /*Se http://snook.ca/archives/html_and_css/vm-vh-units*/
+    margin-top: -100px; /*???*/
+    padding-top: 100px; /*???*/
+    position: relative; /*???*/
+    width: 100%;
+    backface-visibility: hidden; /*???*/
+    will-change: overflow; /*???*/
+}
+
+.Categories,
+.Menu {
+    overflow: auto;
+    height: 100vh;
+    padding: .5rem;
+    /*-webkit-overflow-scrolling: touch; /*???*/
+    overflow-scrolling: touch;
+    /*-ms-overflow-style: none; /*???*/
+    overflow-style: none;
+}
+
+.Categories {
+	width: 150px;
+    background-color: #FFD3B7;
+}
+
+.Menu {
+	flex: 1;
+    background-color: #FFFF99;
+}
+
+.Categories::-webkit-scrollbar,
+.Menu::-webkit-scrollbar {
+    display: none;
+}
+
+.CatItem {
+	width: 110px;
+	height: 100px;
+	margin: 10px;
+	position: relative;
+}
+
+.MenuItem {
+	width: 130px;
+	height: 130px;
+	margin: 30px;
+	position: relative;
+}
+
+.Search {
+	/*width: 100%;*/
+	width: 550px; /*Sexet hardcoding*/
+	height: 40px;
+	/*display: inline-block;*/
+	position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #FFFF99;
+}
+
+/*.Button {
+	width: 40px;
+	height: 40px;
+	position: relative;
+}*/
+
+input {
+	margin-right: 10px;
+}
+
+img {
+	width: auto;
+	height : auto;
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	margin: auto;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#soeg {
+	position: relative;
+}
+
+h3 {
+	font-family: Helvetica;
+	text-align: center;
+	color: orange;
+	margin-top: 0;
+}
+
+h4 {
+	font-family: Helvetica;
+	font-style: italic;
+	text-align: right;
+}
+
+p {
+	font-family: Impact;
+	font-size: 20px;
+	color: #33CC33;
+	padding-left: 50px;
+}
+
+#amumu {
+	width: 500px;
+	height: 500px;
+}
+
+#menu_dyr,
+#menu_eventyr,
+#prototype,
+#search-result {
+	display: none;
+}
+
+form {
+	display: inline;
+}
