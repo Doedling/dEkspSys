@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  background-color: #FFFF99;
+  background-color: #BEDEFF;
   overflow: hidden;
 }
 
@@ -99,7 +99,7 @@ html, body {
 
 .button {
 	border-radius: 100%;
-	background-color: #FFD3B7;
+	background-color: #9DBCDD;
 	height: 200px;
 	width: 200px;
 	position: absolute;
@@ -124,7 +124,7 @@ html, body {
 
 .box .row.footer {
   flex: 0 1 150px;
-  background-color: #FFD3B7;
+  background-color: #9DBCDD;
   display: flex;
   overflow: hidden;
   position: relative;
