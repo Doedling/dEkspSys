@@ -150,6 +150,7 @@ p {
 }
 
 form {
+	width: 100%;
 	display: inline;
-	text-align: right;
+	align: right;
 }
