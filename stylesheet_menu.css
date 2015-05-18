@@ -119,7 +119,7 @@ img {
 h3 {
 	font-family: Helvetica;
 	text-align: center;
-	color: orange;
+	color: white;
 	margin-top: 0;
 }
 
@@ -132,7 +132,7 @@ h4 {
 p {
 	font-family: Impact;
 	font-size: 20px;a
-	color: #33CC33;
+	/*color: #33CC33;*/
 	padding-left: 50px;
 }
 
