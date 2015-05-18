@@ -151,5 +151,5 @@ p {
 
 form {
 	display: inline;
-	align: right;
+	float: right;
 }
