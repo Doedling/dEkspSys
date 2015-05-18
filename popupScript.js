@@ -8,7 +8,7 @@ $(document).ready(function () {
         ];  
 
         $("#openVoice").click(function () {
-            $(".cover").fadeTo(500, 0.8).css('display', 'block');
+            $(".cover").fadeTo(500, 0.6).css('display', 'block');
             $(".close").fadeIn(500);
             $("#popupVoice").fadeIn(500);
             $("#popupVoiceBubble").fadeIn(500);
