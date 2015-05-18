@@ -151,5 +151,6 @@ p {
 
 form {
 	display: inline;
+	position: absolute;
 	right: 0px;
 }
