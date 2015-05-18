@@ -38,7 +38,7 @@ $(document).ready(function() {
 		$("#search-result").show();
 		$("#result").remove();
 		if($phrase != "Pippi") {
-			$(".Result").append("<p id=\"result\">Du har søgt på <i>\"" + $phrase + "\"</i>. Mente du <i>\"Pippi\"</i>?</p>");
+			$(".Result").append("<p>Du har søgt på <i>\"" + $phrase + "\"</i>. Mente du <i>\"Pippi\"</i>?</p>");
 		}
 		else {
 			$(".Result").append("<p id=\"result\">Du har søgt på <i>\"" + $phrase + "\"</i>:</p>");
