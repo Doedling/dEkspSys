@@ -49,6 +49,7 @@ body {
 
 #cat-table {
 	width: 100%;
+	border-spacing: 0px 30px;
 }
 
 .Menu-table {
