@@ -87,8 +87,9 @@ body {
 	position: fixed;
     top: 0;
     z-index: 100;
-    background-color: #FFFF99;
-	align: right;
+    background-color: #FFFF00;
+	float: right;
+	clear: both;
 }
 
 /*.Button {
