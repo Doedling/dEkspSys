@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="stylesheet_bookView.css" />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="popupScript.js"></script>
+		<title>BookView</title>
+	</head>
+
+	<body>
+		<div class="box">
+
+  			<div class="row header">
+    			<a href="javascript:history.go(-1)"><img src="bookView/backArrow.png" id="goBack"/></a>
+  			</div>
+
+  			<div class="row content">
+    			<div class="col image">
+    				<img src="images/pippigul.jpg" id="contentImage" />
+    			</div>
+    			<div class="col text">
+    				<img src="bookView/info.png" id="contentText" />
+				</div>
+    			<div class="col buttons">
+    				<div class="buttonTopPlacement">
+    					<div class="button" id="openVoice">
+    						<img src="bookView/speechBubble.png" class="buttonLabel" />
+    					</div>
+    				</div>
+    				<div class="buttonBottomPlacement">
+    					<div class="button" id="openBook">
+    						<img src="bookView/openBook.png" class="buttonLabel" />
+    					</div>
+    				</div>		
+    			</div>
+  			</div>
+
+  			<div class="row footer">
+    			<div class="relatedBooks">
+    				<img src="http://photography.naturestocklibrary.com/orca-stock-photo.jpg" />
+    				<img src="http://www.affaritaliani.it/static/upl/orc/orca4.jpg" />
+    				<img src="images/pippigul.jpg" />
+    				<img src="http://cdn.grindtv.com/wp-content/uploads/2013/06/orca4.jpg" />
+    				<img src="http://images6.fanpop.com/image/photos/35700000/Orca-orca-whales-35737385-2880-1800.jpg" />
+    				<img src="http://photography.naturestocklibrary.com/orca-stock-photo.jpg" />
+    				<img src="http://www.affaritaliani.it/static/upl/orc/orca4.jpg" />
+    				<img src="images/pippigul.jpg" />
+    				<img src="http://cdn.grindtv.com/wp-content/uploads/2013/06/orca4.jpg" />
+    				<img src="http://images6.fanpop.com/image/photos/35700000/Orca-orca-whales-35737385-2880-1800.jpg" />
+    				<img src="http://photography.naturestocklibrary.com/orca-stock-photo.jpg" />
+    				<img src="http://www.affaritaliani.it/static/upl/orc/orca4.jpg" />
+    				<img src="images/pippigul.jpg" />
+    				<img src="http://cdn.grindtv.com/wp-content/uploads/2013/06/orca4.jpg" />
+    				<img src="http://images6.fanpop.com/image/photos/35700000/Orca-orca-whales-35737385-2880-1800.jpg" />
+    			</div>
+  			</div>
+
+		</div>
+
+        <img src="images/pippigul.jpg" id="popupVoice" />
+        <img src="bookView/speechBubble.png" id="popupVoiceBubble" />
+        <audio src="bookView/pippiSound.mp3" id="audio"></audio>
+        
+        <div class="popupBook">
+            <img src="bookView/pippiBook1.png" id="openedBook" />
+            <div id="previous">
+                <img src="bookView/blackArrowLeft.png" class="bookArrow" />
+            </div>
+            <div id="next">
+                <img src="bookView/blackArrowRight.png" class="bookArrow" />
+            </div>
+        </div>
+
+        <div class="cover"></div>
+        <div class="close">
+            <img src="bookView/redCross.png" id="closeCover" />
+        </div>
+	</body>
+</html>

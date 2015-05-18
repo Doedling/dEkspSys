@@ -1,0 +1,274 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #FFFF99;
+  overflow: hidden;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  z-index: 1;
+}
+
+.box .row {
+  flex: 0 1 30px;
+}
+
+.box .row.header {
+  flex: 0 1 50px;
+  position: relative;
+}
+
+#goBack {
+	max-height: 90%;
+	max-width: 90%;
+	position: absolute;
+	width: auto;
+	height: auto;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 10px;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+}
+
+.box .row.content .col.image {
+	flex: 0 1 40%;
+	position: relative;
+}
+
+#contentImage {
+	max-height: 90%;
+	max-width: 90%;
+	position: absolute;
+	width: auto;
+	height: auto;
+	margin-top: 0px;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.box .row.content .col.text {
+	flex: 0 1 40%;
+	position: relative;
+}
+
+#contentText {
+	max-height: 90%;
+	max-width: 100%;
+	position: absolute;
+	width: auto;
+	height: auto;
+	margin-top: 0px;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.box .row.content .col.buttons {
+	flex: 0 1 20%;
+	position: relative;
+}
+
+.buttonTopPlacement {
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	top: 0px;
+}
+
+.buttonBottomPlacement {
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	bottom: 0px;
+}
+
+.button {
+	border-radius: 100%;
+	background-color: #FFD3B7;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	margin-top: 0px;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.buttonLabel {
+	position: absolute;
+	max-width: 80%;
+	max-height: 80%;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.box .row.footer {
+  flex: 0 1 150px;
+  background-color: #FFD3B7;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  backface-visibility: hidden;
+  will-change: overflow;
+  display:inline-block;
+  white-space:normal;
+}
+
+.relatedBooks {
+    height: 150px;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    white-space: nowrap;
+    overflow-x:scroll;
+    white-space:nowrap;
+}
+
+.relatedBooks::-webkit-scrollbar {
+    display: none;
+}
+
+.relatedBooks > img {
+	display: inline;
+	height: 130px;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#popupVoice {
+    position: fixed;
+    max-width: 80%;
+    max-height: 80%;
+    display: none;
+	z-index: 100;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+#popupVoiceBubble {
+    position: fixed;
+    max-width: 30%;
+    max-height: 30%;
+    display: none;
+	z-index: 110;
+	margin: auto;
+	top: 25%;
+	bottom: 75%;
+	left: 62%;
+	right: 38%;
+}
+
+.popupBook {
+	position: fixed;
+	background-color: #FFFFFF;
+    max-width: 780px;
+    max-height: 560px;
+    display: none;
+	z-index: 100;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+#openedBook {
+	position: absolute;
+	max-width: 100%;
+	max-height: 100%;
+	z-index: 125;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+#previous {
+	position: absolute;
+	height: 73px;
+	width: 51px;
+	z-index: 150;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: -35px;
+}
+
+#next {
+	position: absolute;
+	height: 73px;
+	width: 51px;
+	z-index: 150;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	right: -35px;
+}
+
+.bookArrow {
+	position: absolute;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.cover {
+    position:fixed;
+    width:100%;
+    height:100%;
+    display: none;
+	background-color: #FFFFFF;
+	z-index: 10;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.close {
+	position:fixed;
+    width:55px;
+    height:55px;
+    display: none;
+	z-index: 1000;
+	margin: auto;
+	top: 0px;
+	right: 0px;
+}
+
+#closeCover {
+	max-height: 90%;
+	max-width: 90%;
+	position: absolute;
+	width: auto;
+	height: auto;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	right: 10px;
+}
