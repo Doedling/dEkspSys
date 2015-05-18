@@ -150,7 +150,7 @@ p {
 }
 
 form {
-	display: inline;
+	display: block;
 	/*position: absolute;
 	right: 0px;*/
 }
