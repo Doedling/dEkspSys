@@ -80,7 +80,7 @@ body {
 
 .Search {
 	/*width: 100%;*/
-	width: 250px; /*Sexet hardcoding*/
+	width: 300px; /*Sexet hardcoding*/
 	height: 40px;
 	/*display: inline-block;*/
 	position: fixed;
