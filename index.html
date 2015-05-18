@@ -1,2 +1,314 @@
-Hello World
-<img src="images/home.png"/>
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0, user-scalable=no;user-scalable=0;"/>
+        <link type="text/css" rel="stylesheet" href="stylesheet_menu.css"/>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <title>Menu</title>
+    </head>
+    <body>
+    	<div class="Container">
+
+
+        	<div class="Categories">
+        		<table id="cat-table">
+        			<tr>
+        				<td><div class="CatItem" id="dyr">
+        					<img src="images/animal.png"/>
+        				</div>
+                        <h3>Dyr</h3></td>
+        			</tr>
+        			<tr>
+        				<td><div class="CatItem" id="eventyr">
+                            <img src="images/fairytale.gif"/>
+                        </div>
+                        <h3>Eventyr</h3></td>
+        			</tr>
+                    <tr>
+                        <td><div class="CatItem">
+                            <img src="images/creative.svg" class="MockupCat" id="kreativt"/>
+                        </div>
+                        <h3>Kreativt</h3></td>
+                    </tr>
+                    <tr>
+                        <td><div class="CatItem">
+                            <img src="images/bil.png" class="MockupCat" id="trafik"/>
+                        </div>
+                        <h3>Biler</h3></td>
+                    </tr>
+                    <tr>
+                        <td><div class="CatItem">
+                            <img src="images/fantasy.png" class="MockupCat" id="fantasy"/>
+                        </div>
+                        <h3>Fantasy</h3></td>
+                    </tr>
+                    <tr>
+                        <td><div class="CatItem">
+                            <img src="images/hightide.png" class="MockupCat" id="hoejtider"/>
+                        </div>
+                        <h3>Højtider</h3></td>
+                    </tr>
+                    <tr>
+                        <td><div class="CatItem" id="alle">
+                            <img src="images/home.png"/>
+                        </div>
+                        <h3>Alle bøger</h3></td>
+                    </tr>
+        		</table>
+        	</div>
+
+
+<!-- <input type="image" src="images/soeg.png" height="30px" width="30px" id="soeg"/> -->
+        	<div class="Menu">
+        	    <div class="Search" align="right"><form><input type="text" name="searchPhrase"><img src="images/soeg.png" height="50px" width="50px" id="soeg"/></form></div>
+        		<table class="Menu-table" id="menu_alle">
+        			<tr>
+        				<td><div class="MenuItem">
+        					<img src="images/abc.jpg"/>
+        				</div></td>
+        				<td><div class="MenuItem">
+        					<a href="bookView.html"><img src="images/pippigul.jpg"/></a>
+        				</div></td>
+        				<td><div class="MenuItem">
+                            <img src="images/barbar.jpg"/>
+                        </div></td>
+        			</tr>
+        			<tr>
+        				<td><div class="MenuItem">
+                            <img src="images/mester.jpg"/>
+                        </div></td>
+        				<td><div class="MenuItem">
+                            <img src="images/loeve.gif"/>
+                        </div></td>
+        				<td><div class="MenuItem">
+                            <img src="images/underhyler.jpg"/>
+                        </div></td>
+        			</tr>
+        			<tr>
+        				<td><div class="MenuItem">
+                            <img src="images/palle.jpg"/>
+                        </div></td>
+        				<td><div class="MenuItem">
+                            <img src="images/tyran.jpg"/>
+                        </div></td>
+        				<td><div class="MenuItem">
+                            <img src="images/karla.jpg"/>
+                        </div></td>
+        			</tr>
+        			<tr>
+        				<td><div class="MenuItem">
+                            <img src="images/otto.jpg"/>
+                        </div></td>
+        				<td><div class="MenuItem">
+                            <img src="images/bamse.jpg"/>
+                        </div></td>
+        				<td><div class="MenuItem">
+                            <img src="images/mis.jpg"/>
+                        </div></td>
+        			</tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/alfons.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/andersen.gif"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/astridlindgren.jpg"/>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/aelling.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/emil.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/frederik.jpg"/>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/dvaerge.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/gummitarzan.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/mumi.jpg"/>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/pippigroen.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/rasmus2.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/prinsesser.jpg"/>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/svinedrengen.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/ronja.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/dyr.jpg"/>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/rasmus.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/trolden.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/grimms.jpg"/>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/pingviner.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/storeventyr.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/raevehvalpen.jpg"/>
+                        </div></td>
+                    </tr>
+                        <td><div class="MenuItem">
+                            <img src="images/pippiroed.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/sebastian.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/eventyr.jpg"/>
+                        </div></td>
+                    </tr>
+        		</table>
+
+
+                <table class="Menu-table" id="menu_dyr">
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/loeve.gif"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/frederik.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/rasmus.jpg"/>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/mis.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/dyr.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/mester.jpg"/>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/raevehvalpen.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/rasmus2.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/pingviner.jpg"/>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/sebastian.jpg"/>
+                        </div></td>
+                    </tr>
+                </table>
+
+
+                <table class="Menu-table" id="menu_eventyr">
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/eventyr.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/andersen.gif"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/aelling.jpg"/>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/prinsesser.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/grimms.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/storeventyr.jpg"/>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/trolden.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/svinedrengen.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/dvaerge.jpg"/>
+                        </div></td>
+                    </tr>
+                </table>
+
+
+                <table class="Menu-table" id="search-result">
+                    <tr>
+                        <td colspan="3"><div class="Result"></div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/pippiroed.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/pippigul.jpg"/>
+                        </div></td>
+                        <td><div class="MenuItem">
+                            <img src="images/pippigroen.jpg"/>
+                        </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="MenuItem">
+                            <img src="images/astridlindgren.jpg"/>
+                        </div></td>
+                    </tr>
+                </table>
+
+
+                <table class="Menu-table" id="prototype">
+                    <tr>
+                        <td><div class="MenuItem" id="amumu"><img src="images/amumu.jpg"/></div>
+                            <h3>Denne demo-funktionalitet er endnu ikke implementeret.</h3>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+    	</div>
+    </body>
+</html>
