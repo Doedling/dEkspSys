@@ -169,19 +169,6 @@ html, body {
 	right: 0px;
 }
 
-#popupVoiceBubble {
-    position: fixed;
-    max-width: 30%;
-    max-height: 30%;
-    display: none;
-	z-index: 110;
-	margin: auto;
-	top: 25%;
-	bottom: 75%;
-	left: 62%;
-	right: 38%;
-}
-
 .popupBook {
 	position: fixed;
 	background-color: #FFFFFF;
