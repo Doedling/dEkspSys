@@ -47,6 +47,13 @@ body {
     display: none;
 }
 
+.Menu-table {
+	width: 100%;
+	margin-top: 50px;
+	border-spacing: 100px;
+    border-collapse: separate;
+}
+
 .CatItem {
 	width: 110px;
 	height: 100px;
@@ -55,9 +62,14 @@ body {
 }
 
 .MenuItem {
-	width: 130px;
-	height: 130px;
-	margin: 30px;
+	width: 260px;
+	height: 260px;
+	/*margin: 30px;*/
+	margin: auto;
+	/*top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;*/
 	position: relative;
 }
 
